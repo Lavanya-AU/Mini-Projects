@@ -1,0 +1,26 @@
+#myH1{
+    text-shadow:-3px -3px 5px hsl(331, 13%, 49%);
+    color :hsl(0, 0%, 20%);
+    text-align: center
+}
+#element{
+    text-align: center;
+    font-size : 5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#container{
+    text-align: center;
+}
+.btn{
+    margin: 10px;
+    padding: 10px 8px;
+    border-radius: 5px;
+    background-color: hsl(208, 100%, 77%);
+    font-size: 1em;
+    transition: background-color 0.25s ;
+}
+.btn:hover{
+    background-color: hsl(208, 100%, 57%);
+    cursor: pointer;
+    box-shadow: 2px 2px 5px;
+}
